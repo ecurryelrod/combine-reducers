@@ -1,4 +1,4 @@
-function booksReducer(state = [], action) {
+export default function booksReducer(state = [], action) {
     let idx;
     switch (action.type) {
       case 'ADD_BOOK': return [...state, action.book]
@@ -8,5 +8,3 @@ function booksReducer(state = [], action) {
       default: return state
     }
 }
-
-export default booksReducer
