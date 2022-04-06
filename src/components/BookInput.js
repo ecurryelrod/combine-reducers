@@ -3,7 +3,7 @@ import { addBook } from '../actions';
 import uuid from 'uuid';
 import { connect } from 'react-redux';
 
-export class BookInput extends Component {
+class BookInput extends Component {
 
   state = {
     title: '',

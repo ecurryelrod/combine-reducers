@@ -3,7 +3,7 @@ import { addAuthor } from '../actions';
 import uuid from 'uuid';
 import { connect } from 'react-redux';
 
-export class AuthorInput extends Component {
+class AuthorInput extends Component {
 
   state = {
     authorName: '',

@@ -5,7 +5,7 @@ import BookInput from './components/BookInput';
 import Books from './components/Books';
 
 
-export class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -23,5 +23,3 @@ export class App extends Component {
     );
   }
 };
-
-export default App;
